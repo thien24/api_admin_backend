@@ -7,9 +7,9 @@ async function fetchDataFromApis() {
         const tripData = await axios.get('https://api-flutter-jncp.onrender.com/trips');
         const userData = await axios.get('https://api-flutter-jncp.onrender.com/user');
         const addressData = await axios.get('https://api-flutter-jncp.onrender.com/address');
-        const categoryData = await axios.get('http://localhost:5000/categories');
-        const productData = await axios.get('http://localhost:5000/products');
-        const orderData = await axios.get('http://localhost:5000/orders');
+        const categoryData = await axios.get('https://api-admin-backend-9lkl.onrender.com/categories');
+        const productData = await axios.get('https://api-admin-backend-9lkl.onrender.com/products');
+        const orderData = await axios.get('https://api-admin-backend-9lkl.onrender.com/orders');
 
         return {
             trips: tripData.data,

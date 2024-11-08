@@ -4,9 +4,9 @@ const ExcelJS = require('exceljs');
 // Hàm để lấy dữ liệu từ các API
 async function fetchDataFromApis() {
     try {
-        const tripData = await axios.get('https://api-flutter-ivay.onrender.com/trip');
-        const userData = await axios.get('https://api-flutter-ivay.onrender.com/user');
-        const addressData = await axios.get('https://api-flutter-ivay.onrender.com/address');
+        const tripData = await axios.get('https://api-flutter-jncp.onrender.com/trips');
+        const userData = await axios.get('https://api-flutter-jncp.onrender.com/user');
+        const addressData = await axios.get('https://api-flutter-jncp.onrender.com/address');
         const categoryData = await axios.get('http://localhost:5000/categories');
         const productData = await axios.get('http://localhost:5000/products');
         const orderData = await axios.get('http://localhost:5000/orders');

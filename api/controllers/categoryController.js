@@ -1,5 +1,5 @@
 // controllers/categoryController.js
-const Category = require('../models/Category');
+const Category = require('../Models/Category');
 
 const categoryController = {
     // Lấy tất cả các danh mục
